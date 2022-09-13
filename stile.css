@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+.header {
+  background-image: url("./bg.png");
+  height: 100vh;
+  background-size: cover;
+}
+
+.wrapper {
+  height: 100%;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  color: white;
+}
+
+.header-menu {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heder-menu-link {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+.heder-menu-link:hover {
+  border-bottom: 1px solid white;
+}
